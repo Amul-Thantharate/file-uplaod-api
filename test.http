@@ -1,0 +1,5 @@
+
+curl -X POST \
+  -H "Content-Type: multipart/form-data" \
+  -F "file=@name.txt" \
+  http://localhost:8080/upload
